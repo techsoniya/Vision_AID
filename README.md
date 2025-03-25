@@ -24,15 +24,15 @@ This project is a real-time object detection system that identifies objects usin
 ```bash
 git clone https://github.com/your-username/object-detection-voice.git
 cd object-detection-voice
-2️⃣ Install Dependencies
+### 2️⃣ Install Dependencies
 bash
 Copy
 Edit
 pip install tensorflow opencv-python gtts
-3️⃣ Download the Pre-trained Model
+### 3️⃣ Download the Pre-trained Model
 Ensure you have the ssd_mobilenet_v2 model from TensorFlow Hub. The script will handle loading it.
 
-▶️ How to Run
+### ▶️ How to Run
 Run the script to start object detection:
 
 bash
@@ -41,12 +41,12 @@ Edit
 python main.py
 The camera will activate, and detected objects will be announced with a voice output every 3 seconds.
 
-📷 Demo
+### 📷 Demo
 
 Screenshots of the detection system in action.
 
-🤝 Contributions & License
+### 🤝 Contributions & License
 Contributions are welcome! Feel free to open issues or submit pull requests.
-📜 Licensed under the MIT License.
+
 
 ⭐ If you found this project helpful, give it a star! ⭐
